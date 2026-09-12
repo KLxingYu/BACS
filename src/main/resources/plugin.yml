@@ -1,0 +1,26 @@
+name: BACS
+version: 1.7.0
+main: com.bACS.BACS
+api-version: 1.13
+
+commands:
+  vote:
+    description: 加时投票
+    usage: /vote <agree|disagree>
+  forcegame:
+    description: 强开
+    usage: /forcegame
+  resetgame:
+    description: 重置游戏
+    usage: /resetgame
+  voidworld:
+    description: tp到虚空
+    usage: /voidworld
+  coin:
+    description: 查询硬币
+    usage: /coin [add|set|reset|lookup] <玩家> [数量]
+    permission: bacs.coin
+    permission-message: 你没有权限！
+  buykits:
+    description: 购买套件
+    usage: /buykits
